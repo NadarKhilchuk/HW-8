@@ -20,5 +20,89 @@ div>p {
 }
 
 .text-box .yellow {
-    color: yellow;
+    color: yellow
+}
+
+.
+.lessons-container {
+    
+   
+display: flex;
+}
+
+ul {
+    
+   
+list-style: none;
+    
+   
+margin: 10px;
+    
+   
+padding: 0;
+}
+
+
+li:hover {
+    
+   
+background-color: yellow;
+    
+   
+cursor: pointer;
+}
+
+li:active {
+    
+   
+background-color: green;
+}
+
+li:focus {
+    
+   
+outline: 2px solid blue;
+}
+
+li:checked {
+    
+   
+text-decoration: line-through;
+}
+
+li:first-child {
+    
+   
+font-weight: bold;
+}
+
+
+ul:nth-child(odd) {
+    
+   
+background-color: #f1f1f1;
+}
+
+ul:nth-child(even) {
+    
+   
+background-color: #ddd;
+}
+
+li:nth-child(3n) {
+    
+   
+color: red;
+}
+
+li:nth-child(3n + 1) {
+    
+   
+color: blue;
+}
+
+li:last-child {
+    
+   
+color: green;
 }
