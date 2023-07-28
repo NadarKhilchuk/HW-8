@@ -1,0 +1,24 @@
+.text-box h3:first-child {
+    color: pink;
+}
+
+#greycol {
+    color: grey;
+}
+
+.text-box div:first-child,
+.text-box div:last-child {
+    all: unset;
+}
+
+div>p {
+    color: red;
+}
+
+.text-box p:nth-of-type(3) {
+    color: green;
+}
+
+.text-box .yellow {
+    color: yellow;
+}
